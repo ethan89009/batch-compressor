@@ -1,9 +1,7 @@
 # Batch Image Compressor
 ## Setting up the Project
-
-**Welcome to the project!** 
-
-This guide will walk you through setting up the project environment.
+ 
+This will walk you through setting up the project environment.
 
 **Prerequisites:**
 
@@ -50,6 +48,17 @@ This guide will walk you through setting up the project environment.
 
 - If you encounter issues, consult the official documentation for `pip` and `venv`.
 - Consider using a code editor or IDE with Python support for a smoother development experience.
+
+## Installing the CLI
+Simply copy the executable file to scripts folder in your system and assign a path environment variable to it .
+
+Then simply call the script from the command line using the following command
+
+```bash
+batch_comp -h
+```
+This will show the help menu for the script and the various options that can be used with it indicating that it was successfully installed
+
 
 ## CLI usage
 This cli uses a list of simple arguments that can be used to compress images in a folder or a single image or a list of images and save them in a folder . The folder is called 'output' 
