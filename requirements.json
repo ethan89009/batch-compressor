@@ -1,5 +1,0 @@
-{
-    "pyinstaller":"6.2.0",
-    "pillow":"10.2.0",
-    "argparse":"latest"
-}
